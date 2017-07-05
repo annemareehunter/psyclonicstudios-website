@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% assign catalogue = site.data.catalogues[page.data] %}
+<header class="catalogue-header">
+  <h1 class="catalogue-title">{{ catalogue.title | escape }}</h1>
+  <p class="catalogue-meta">
+    <time datetime="{{ page.year }}">
+    </time>
+</header>
+
+<div class="catalogue-container">
+  {% for item in catalogue.items %}
+  {% assign image = catalogue.thumbnail_dir | append: item.images.first %}
+  <div class="catalogue-item">
+    <figure>
+    <img src="{{ image }}" alt="{{ image }}">
+    <figcaption>{{ item.title }}</figcaption>
+    </figure>
+  </div>
+  {% endfor %}
+</div>

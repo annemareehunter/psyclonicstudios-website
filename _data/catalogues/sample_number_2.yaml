@@ -1,0 +1,91 @@
+---
+title: Sample number 2
+year: 2017
+image_dir: /img/catalogues/sample_number_2/
+thumbnail_dir: /img/catalogues/sample_number_2/thumbnail/
+page_path: gallery/sample_number_2.html
+tags: sample
+default_image: geisha_on_grey.jpg
+type: gallery
+item_default:
+  title: ""
+  year: 2017
+  media: lithograph
+  editions: 12
+  dimensions:
+    units: m
+    width: 0.3
+    height: 0.7
+    depth: 0.1
+  description: ""  
+  tags: lithograph
+items:
+-
+  title: Geisha on Grey
+  year: 2017
+  media: lithograph
+  editions: 7
+  dimensions:
+    units: m
+    width: 0.4
+    height: 0.8
+    depth: 0.15
+  description: >
+    A pink tsunami
+  tags:
+    - lithograph
+    - tsunami
+  images:
+    - geisha_on_grey.jpg
+-
+  title: The Terrible Lizard
+  year: 2017
+  media: lithograph
+  editions: 7
+  dimensions:
+    units: m
+    width: 0.4
+    height: 0.8
+    depth: 0.15
+  description: >
+    A pink tsunami
+  tags:
+    - lithograph
+    - tsunami
+  images:
+    - the_terrible_lizard.jpg
+-
+  title: The Mountain is Young
+  year: 2017
+  media: lithograph
+  editions: 7
+  dimensions:
+    units: m
+    width: 0.4
+    height: 0.8
+    depth: 0.15
+  description: >
+    A pink tsunami
+  tags:
+    - lithograph
+    - tsunami
+  images:
+    - the_mountain_is_young.jpg
+
+-
+  title: Life on a High Wire
+  year: 2016
+  media: etching
+  editions: 12
+  dimensions:
+    units: cm
+    width: 20
+    height: 100
+    depth: 12
+  description: >
+    Smoke and mirrors
+  tags:
+    - etching
+    - mirrors
+  images:
+    - life_on_a_high_wire.jpg

@@ -1,0 +1,62 @@
+---
+title: Sample number 1
+year: 2017
+image_dir: /img/catalogues/sample_number_1/
+thumbnail_dir: /img/catalogues/sample_number_1/thumbnail/
+page_path: gallery/sample_number_1.html
+tags: sample
+default_image: pink_tsunami+front.jpg
+type: gallery
+item_default:
+  title: ""
+  year: 2017
+  media: lithograph
+  editions: 12
+  dimensions:
+    units: m
+    width: 0.3
+    height: 0.7
+    depth: 0.1
+  description: ""  
+  tags: lithograph
+items:
+-
+  title: Pink tsunami
+  year: 2017
+  media: lithograph
+  editions: 7
+  dimensions:
+    units: m
+    width: 0.4
+    height: 0.8
+    depth: 0.15
+  description: >
+    A pink tsunami
+  tags:
+    - lithograph
+    - tsunami
+  images:
+    - pink_tsunami+front.jpg
+    - pink_tsunami+back.jpg
+    - geisha_on_grey.jpg
+    - life_on_a_high_wire.jpg
+    - the_terrible_lizard.jpg
+    - the_mountain_is_young.jpg
+
+-
+  title: Smoke and mirrors
+  year: 2016
+  media: etching
+  editions: 12
+  dimensions:
+    units: cm
+    width: 20
+    height: 100
+    depth: 12
+  description: >
+    Smoke and mirrors
+  tags:
+    - etching
+    - mirrors
+  images:
+    - smoke_and_mirrors.jpg
