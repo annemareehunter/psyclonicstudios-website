@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 PATH
   remote: theme
   specs:
     psyclonic (0.1.0)
       jekyll (~> 3.4)
 
+=======
+>>>>>>> f011a984a31df2146475538023163fe3b9fc5717
 GEM
   remote: https://rubygems.org/
   specs:
@@ -52,13 +55,17 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 3.4.3)
+<<<<<<< HEAD
   jekyll-compose (~> 0.5.0)
+=======
+  jekyll-compose
+>>>>>>> f011a984a31df2146475538023163fe3b9fc5717
   jekyll-feed (~> 0.6)
   psyclonic!
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.3.2p217
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.15.1

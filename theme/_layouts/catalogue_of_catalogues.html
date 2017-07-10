@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% assign catalogues = site.data.catalogues | where:'type','gallery' %}
+<header class="catalogue-header">
+  <h1 class="catalogue-title">{{ page.title | escape }}</h1>
+  <p class="catalogue-meta">
+    <time datetime="{{ page.year }}">
+    </time>
+</header>
+
+<div class="catalogue-container">
+  {% for catalogue in catalogues %}
+  {% assign image = catalogue.thumbnail_dir | append: catalogue.default_image %}
+  {% assign url = site.baseurl | append: catalogue.page_path %}
+  <div class="catalogue-item">
+    <a href="{{ url }}">
+    <figure>
+    <img src="{{ image }}" alt="{{ image }}">
+    <figcaption>{{ catalogue.title }}</figcaption>
+    </figure>
+  </a>
+  </div>
+  {% endfor %}
+</div>
