@@ -12,10 +12,7 @@ ruby RUBY_VERSION
 gem "jekyll", "3.4.3"
 
 # We want some sensible commands to create content
-<<<<<<< HEAD
-=======
 #gem "jekyll-catalogue", path: "~/projects/jekyll-catalogue", group: [:jekyll_plugins]
->>>>>>> f011a984a31df2146475538023163fe3b9fc5717
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "psyclonic", path: "theme"
