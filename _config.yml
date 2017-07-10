@@ -46,18 +46,18 @@ collections:
         path: "_garage"
       values:
         layout: "catalogue"
-  academia:
-    defaults:
-      scope:
-        path: "_academia"
-      values:
-        layout: "page"
   about:
     defaults:
       scope:
         path: "_about"
       values:
         layout: "page"
+  events:
+    defaults:
+      scope:
+        path: "_events"
+      values:
+        layouts: "event"
           
 # Build settings
 markdown: kramdown
